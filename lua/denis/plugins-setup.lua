@@ -35,7 +35,7 @@ return packer.startup(function(use)
 
     use("tpope/vim-surround")
 
-    use("nvim-tree/nvim-tree.lua")
+   -- use("nvim-tree/nvim-tree.lua")
     use("kyazdani42/nvim-web-devicons")
     use("nvim-lualine/lualine.nvim")
     use({ "nvim-telescope/telescope-fzf-native.nvim", run = "make" })

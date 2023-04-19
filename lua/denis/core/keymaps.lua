@@ -3,7 +3,7 @@ vim.g.mapleader = " "
 local keymap = vim.keymap
 
 keymap.set("n", "<leader>sv", ":Vex<CR>")
-keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
+keymap.set("n", "<leader>e", ":Ex<CR>")
 keymap.set("n", "<leader>sh", ":Sex<CR>")
 keymap.set("n", "<leader>c", ":close<CR>")
 
